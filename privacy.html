@@ -1,0 +1,218 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Privacy Policy — Apnea Comp</title><meta name="description" content="">
+<style>
+:root{--accent:#1b6fb3;--ink:#1a2330;--muted:#5b6675;--bg:#f6f8fb;--card:#fff;--line:#e3e9f0}
+*{box-sizing:border-box}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Noto Sans KR',sans-serif;color:var(--ink);background:var(--bg);line-height:1.65}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+.wrap{max-width:860px;margin:0 auto;padding:0 20px}
+header.hero{background:linear-gradient(135deg,#0e4f86,#1b6fb3);color:#fff;padding:64px 0 56px}
+header.hero .wrap{display:flex;flex-direction:column;gap:8px}
+.brand{font-size:34px;font-weight:800;letter-spacing:-.5px}
+.brand small{display:block;font-size:15px;font-weight:500;opacity:.9;margin-top:6px}
+.tag{font-size:17px;opacity:.95;max-width:620px}
+.btns{margin-top:18px;display:flex;gap:10px;flex-wrap:wrap}
+.btn{background:#fff;color:var(--accent);padding:10px 16px;border-radius:10px;font-weight:700;font-size:14px}
+.btn.ghost{background:rgba(255,255,255,.15);color:#fff;border:1px solid rgba(255,255,255,.5)}
+section{padding:40px 0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:24px 26px;margin:16px 0}
+h2{font-size:22px;margin:0 0 12px}
+h3{font-size:16px;margin:18px 0 6px}
+.muted{color:var(--muted)}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media(max-width:640px){.grid{grid-template-columns:1fr}}
+footer{border-top:1px solid var(--line);padding:28px 0;color:var(--muted);font-size:13px}
+/* policy */
+.policy{background:#fff;border:1px solid var(--line);border-radius:14px;padding:28px 30px;margin:24px 0}
+.policy h1{font-size:26px}.policy h2{font-size:19px;margin-top:26px;border-top:1px solid var(--line);padding-top:18px}
+.policy h3{font-size:15px}.policy code{background:#eef2f7;padding:1px 5px;border-radius:4px}
+.topbar{padding:14px 0;font-size:14px}
+</style></head><body>
+<div class="topbar"><div class="wrap"><a href="index.html">&larr; ELfreediving</a> &nbsp;·&nbsp; <a href="privacy-ko.html">한국어</a></div></div>
+<div class="wrap"><div class="policy"><h1>Privacy Policy</h1>
+<p><strong>Apnea Comp</strong></p>
+<p><em>Last updated: May 3, 2026</em></p>
+<hr />
+<h2>1. Introduction</h2>
+<p>This Privacy Policy describes how the <strong>Apnea Comp</strong> mobile application ("we", "our", "the App") collects, uses, and protects information when you use our service. The App is a competition management tool designed for freediving event organizers, judges, and staff to coordinate AIDA-sanctioned competitions.</p>
+<p>By using the App, you agree to the practices described in this policy.</p>
+<hr />
+<h2>2. Information We Collect</h2>
+<h3>2.1 Account Information</h3>
+<p>When you create an account, we collect:</p>
+<ul>
+<li><strong>Email address</strong> — used for authentication and account recovery</li>
+<li><strong>Display name</strong> — shown to other event participants</li>
+<li><strong>Password</strong> — stored as a secure hash via our authentication provider (Supabase Auth). We never store passwords in plain text.</li>
+</ul>
+<h3>2.2 Profile Information (Optional)</h3>
+<ul>
+<li><strong>Profile picture</strong> — if you choose to upload one. This image is visible to other members of any event you join, and is referenced in activity logs (see Section 2.5).</li>
+</ul>
+<h3>2.3 Athlete Competition Data</h3>
+<p>When events are loaded from AIDA International, the App stores:</p>
+<ul>
+<li><strong>Athlete name</strong> (first and last)</li>
+<li><strong>Gender</strong></li>
+<li><strong>Nationality</strong></li>
+<li><strong>Discipline</strong> (STA, DYN, CWT, etc.)</li>
+<li><strong>Announced Performance (AP)</strong></li>
+<li><strong>Personal Best (PB)</strong></li>
+<li><strong>Competition results</strong> (RP, judge cards, penalty reasons, REMARKS)</li>
+<li><strong>Check-in signature</strong> (digital signature drawn by the athlete on a staff device)</li>
+</ul>
+<p>This information is sourced from <strong>AIDA International's public competition records</strong> via their official API, except for check-in signatures which are collected directly within the App.</p>
+<h3>2.4 Information We Do NOT Collect</h3>
+<p>We explicitly do <strong>not</strong> collect or store:</p>
+<ul>
+<li>Athletes' email addresses</li>
+<li>Athletes' phone numbers</li>
+<li>Athletes' physical addresses</li>
+<li>Athletes' dates of birth</li>
+<li>Athletes' photos or face images</li>
+<li>Athletes' AIDA UUIDs or unique identifiers</li>
+<li>Location data of users</li>
+<li>Device identifiers for tracking</li>
+<li>Browsing history</li>
+<li>Contacts from your device</li>
+</ul>
+<h3>2.5 Activity Logs</h3>
+<p>To support operational transparency during competitions, the App records significant actions taken within an event:</p>
+<ul>
+<li><strong>What we log</strong> — judge result entries, schedule adjustments (OT delays), check-in operations, and member role changes</li>
+<li><strong>What each log entry contains</strong> — the user's display name, profile picture URL (if set), the action type, the affected athlete name (if applicable), and a timestamp</li>
+<li><strong>Visibility</strong> — log entries are visible to Organizers and Main Judges of the same event only</li>
+<li><strong>Retention</strong> — log entries are tied to the event and are deleted when the event is deleted</li>
+</ul>
+<p>Activity logs do not include any data beyond what is described above.</p>
+<h3>2.6 Local Device Storage (Offline Buffering)</h3>
+<p>To allow continued operation when internet connectivity is intermittent (common at pool and depth venues), the App may temporarily hold judge results in your device's memory before they reach our servers:</p>
+<ul>
+<li><strong>Where</strong> — only in the App's memory while it is running. We do not write offline data to persistent device storage.</li>
+<li><strong>When</strong> — automatically, when a judge save is attempted while the device is offline.</li>
+<li><strong>How long</strong> — until the App synchronizes the result with our servers, which happens automatically within seconds of internet returning.</li>
+<li><strong>Visibility</strong> — offline-buffered results are visible only on the device that created them until synchronization succeeds. Other devices in the same event do not see them.</li>
+<li><strong>Limitations</strong> — if the App is force-closed or the device reboots before synchronization completes, offline-buffered results are lost. The App displays an "⛔ Offline" badge on affected items and warns users not to quit the App while items are pending.</li>
+</ul>
+<p>This buffering does not transmit data to any third party.</p>
+<hr />
+<h2>3. How We Use Information</h2>
+<p>We use the collected information to:</p>
+<ul>
+<li>Authenticate users and manage accounts</li>
+<li>Display competition schedules and athlete information to authorized event staff</li>
+<li>Submit judge results back to AIDA International (when configured by the event organizer)</li>
+<li>Synchronize data across devices used by event staff in real-time</li>
+<li>Maintain activity logs for operational transparency within events</li>
+<li>Notify users of relevant event updates within the App</li>
+</ul>
+<p>We do <strong>not</strong> use your information for advertising, marketing, or sale to third parties.</p>
+<hr />
+<h2>4. Data Sharing</h2>
+<h3>4.1 With AIDA International</h3>
+<p>When an event organizer configures AIDA integration with their API token:</p>
+<ul>
+<li>We <strong>read</strong> event days, start lists, and athlete information from AIDA International</li>
+<li>We <strong>submit</strong> judge results (athlete performance, cards, penalties, remarks) back to AIDA International</li>
+</ul>
+<p>This sharing is essential for the App's core function and is initiated by the event organizer.</p>
+<h3>4.2 Within Events</h3>
+<p>Event participants (organizers, main judges, judges, staff) can see:</p>
+<ul>
+<li>Names, profile pictures, and roles of other participants in the same event</li>
+<li>Athlete information for that event</li>
+<li>Real-time updates of judge results</li>
+<li>Activity logs (Organizers and Main Judges only)</li>
+</ul>
+<p>Information is scoped to the event — users in one event cannot see data from another event they don't belong to.</p>
+<h3>4.3 Third-Party Service Providers</h3>
+<p>We use the following service providers to operate the App:</p>
+<ul>
+<li><strong>Supabase</strong> (<a href="https://supabase.com">supabase.com</a>) — backend authentication, database, real-time synchronization, and storage of profile pictures</li>
+<li><strong>AIDA International</strong> (<a href="https://www.aidainternational.org">aidainternational.org</a>) — official source of competition data</li>
+<li><strong>Apple App Store</strong> and <strong>Google Play Services</strong> — app distribution and crash reporting</li>
+</ul>
+<p>These providers process data on our behalf and are bound by their own privacy policies.</p>
+<h3>4.4 Legal Requirements</h3>
+<p>We may disclose information if required by law, court order, or to protect the rights, property, or safety of users.</p>
+<hr />
+<h2>5. Data Retention</h2>
+<ul>
+<li><strong>Account data</strong> — retained while your account exists. You can request deletion at any time (see Section 8).</li>
+<li><strong>Event data</strong> (athletes, results, logs, signatures) — automatically deleted when the event organizer deletes the event.</li>
+<li><strong>Offline-buffered results</strong> — held in device memory only; either synchronized to our servers within seconds of internet returning, or lost if the App is closed before sync.</li>
+<li><strong>Authentication tokens</strong> — short-lived; refreshed or expired automatically.</li>
+</ul>
+<hr />
+<h2>6. Data Security</h2>
+<p>We protect your information through multiple layers of security:</p>
+<h3>Transport &amp; Storage</h3>
+<ul>
+<li>All data is transmitted over encrypted HTTPS connections</li>
+<li>Data is encrypted at rest by our infrastructure provider (Supabase)</li>
+<li>Passwords are hashed using industry-standard algorithms; we never store plain-text passwords</li>
+</ul>
+<h3>Database-Level Access Control</h3>
+<ul>
+<li><strong>Row-Level Security (RLS)</strong> is enforced at the database level on all tables containing user or event data</li>
+<li>Users can only access data for events they belong to</li>
+<li>Pending or unapproved members cannot access event data</li>
+<li>Permissions are checked on every query, not just at login</li>
+</ul>
+<h3>Role-Based Permissions</h3>
+<ul>
+<li><strong>Main Judge / Organizer</strong> — can manage events, members, and competition data; view activity logs</li>
+<li><strong>Judge</strong> — can view and submit competition results</li>
+<li><strong>Staff</strong> — can view event data</li>
+<li>Permissions are scoped per-event; a judge in one event has no access to another</li>
+</ul>
+<h3>AIDA API Token Protection</h3>
+<ul>
+<li>AIDA API tokens (used to sync with AIDA International) are stored encrypted in the database</li>
+<li>Only main_judge and organizer roles can retrieve tokens, enforced through restricted database functions</li>
+<li>Other roles (judge, staff) cannot access tokens, even if they have access to other event data</li>
+<li>Tokens are masked in the user interface; users must explicitly choose to reveal them</li>
+</ul>
+<h3>Session &amp; Access</h3>
+<ul>
+<li>Authentication tokens are short-lived and refreshed automatically</li>
+<li>Access is revoked in real-time when users are removed from events</li>
+<li>Account credentials are your responsibility; never share them</li>
+</ul>
+<p>While we take reasonable measures to protect your information, no system is completely secure. You are responsible for keeping your account credentials confidential and reporting any suspicious activity.</p>
+<hr />
+<h2>7. Children's Privacy</h2>
+<p>The App is intended for use by adult event organizers, judges, and staff. We do not knowingly collect personal information from children under 13. AIDA International's competition records may include athletes of various ages, but no contact information for any individuals (including minors) is collected through the App.</p>
+<p>If you believe we have collected information from a child without parental consent, please contact us so we can delete it.</p>
+<hr />
+<h2>8. Your Rights</h2>
+<p>You have the right to:</p>
+<ul>
+<li><strong>Access</strong> the personal information we hold about you</li>
+<li><strong>Correct</strong> inaccurate information through the App's profile settings</li>
+<li><strong>Delete</strong> your account and associated data</li>
+<li><strong>Withdraw consent</strong> by uninstalling the App and requesting account deletion</li>
+<li><strong>Export</strong> your data (contact us for assistance)</li>
+</ul>
+<p>To exercise these rights, contact us using the information in Section 11.</p>
+<hr />
+<h2>9. International Data Transfers</h2>
+<p>The App may process and store data in regions where Supabase operates (currently United States). By using the App, you consent to your data being transferred to and processed in these regions.</p>
+<hr />
+<h2>10. Changes to This Policy</h2>
+<p>We may update this Privacy Policy from time to time. When we make material changes, we will:</p>
+<ul>
+<li>Update the "Last updated" date at the top</li>
+<li>Notify users through the App if changes are significant</li>
+</ul>
+<p>Continued use of the App after changes means you accept the updated policy.</p>
+<hr />
+<h2>11. Contact</h2>
+<p>If you have questions, concerns, or requests regarding this Privacy Policy:</p>
+<p><strong>Email:</strong> lee33179@gmail.com</p>
+<p><strong>Developer:</strong> Apnea Comp</p>
+<hr />
+<h2>12. Disclaimer</h2>
+<p>This App is an independent tool for managing AIDA competitions. It is not officially endorsed, affiliated with, or operated by AIDA International. AIDA International data is accessed via their public API and used in accordance with their terms.</p></div></div>
+<footer><div class="wrap">© ELfreediving (엘프리다이빙) · <a href="index.html">Home</a></div></footer></body></html>
